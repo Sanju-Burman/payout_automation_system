@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import CSVUploader from "./CSVUploader";
-import "../../styles/sessionDate.css";
+import "../../styles/sessionData.css";
 
 const SessionData = () => {
     const [sessions, setSessions] = useState([]);
